@@ -3,7 +3,6 @@ import Image from 'next/image';
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 import { ICategoryDataModel, ICategoryModel } from '../../model/model';
-import useCategoryStore from '../store/category.store';
 import { useRouter } from 'next/navigation';
 
 const Card = () => {
